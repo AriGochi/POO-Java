@@ -1,32 +1,40 @@
-import java.util.Scanner;
+import java.awt.*;
+import java.lang.String;
+
 public class Main {
-    public static void main(String args[])
-    {
-        System.out.println("Programa que recibe como entrada una cadena exactamente de 9 caracteres.");
-        Scanner teclado = new Scanner(System.in);
-        String juego = "";
+    public static void main(String[] args) {
+        System.out.println("\n Automovil");
+        Automovil auto1 = new Automovil("Volkswagen", " nivus", (byte) 63, "Negro");
+        System.out.println(auto1);
+        auto1.encender();
+        auto1.apagar();
+        auto1.viajar();
 
-        System.out.println("Escribe 9 caracteres entre X y O, por favor");
-        juego = teclado.nextLine();
+        //Separacion
+        System.out.println("\n Persona");
+        Persona o1 = new Persona(19, "Ari", 1.58, 52.5, "Femenino");
+        System.out.println(o1);
+        o1.comer();
+        o1.bailar();
+        o1.bañar();
 
-        int a = juego.length();
+        //Separacion
+        System.out.println("\n Monitor");
+        Monitor m1 = new Monitor(20.2,"HP","3229Lg","Elite", 15.700);
+        System.out.println(m1);
+        m1.encender();
+        m1.apagar();
+        m1.proyectar();
 
-        if(a==9)
-        {
-            String mjuego = juego.toUpperCase();
+        //Separacion
 
-            String a1 = mjuego.substring(0,3);
-            String a2 = mjuego.substring(3,6);
-            String a3 = mjuego.substring(6);
+        System.out.println("\n Telefono");
+        Telefono t1 = new Telefono("Motorola",6,"Negro");
+        System.out.println(t1);
+        t1.encender();
+        t1.comunicar();
+        t1.Apagar();
 
-            System.out.println("Mucha suerte, que gane el mejor");
-            System.out.print("-----\n|" + a1 + "|\n|" + a2 + "|\n|" + a3 + "|\n-----");
 
-        }
-
-        else
-        {
-            System.out.println("Solo introduzca 9 caracteres por favor");
-        }
     }
 }
