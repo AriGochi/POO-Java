@@ -1,40 +1,54 @@
 import java.awt.*;
-import java.lang.String;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("\n Automovil");
-        Automovil auto1 = new Automovil("Volkswagen", " nivus", (byte) 63, "Negro");
-        System.out.println(auto1);
-        auto1.encender();
-        auto1.apagar();
-        auto1.viajar();
+        Pais pai = new Pais( "Mexico",132455, "Ciudad de Mexico","Español");
+        System.out.println(pai);
+        pai.gobernar();
+        System.out.println(pai);
+        pai.conquistar();
 
-        //Separacion
-        System.out.println("\n Persona");
-        Persona o1 = new Persona(19, "Ari", 1.58, 52.5, "Femenino");
-        System.out.println(o1);
-        o1.comer();
-        o1.bailar();
-        o1.bañar();
+        Giroscopio giro= new Giroscopio ( 123,54, 400);
+        System.out.println(giro);
+        giro.medir();
+        System.out.println(giro);
+        giro.conocer();
 
-        //Separacion
-        System.out.println("\n Monitor");
-        Monitor m1 = new Monitor(20.2,"HP","3229Lg","Elite", 15.700);
-        System.out.println(m1);
-        m1.encender();
-        m1.apagar();
-        m1.proyectar();
+        Computadora compu= new Computadora ( "HP","54", 16, 43);
+        System.out.println(compu);
+        compu.navegar();
+        System.out.println(compu);
+        compu.programar();
 
-        //Separacion
+        CuboDeRubik  cubo= new CuboDeRubik  (6, Color.gray);
+        System.out.println(cubo);
+        cubo.jugar();
+        System.out.println(cubo);
+        cubo.armar();
 
-        System.out.println("\n Telefono");
-        Telefono t1 = new Telefono("Motorola",6,"Negro");
-        System.out.println(t1);
-        t1.encender();
-        t1.comunicar();
-        t1.Apagar();
+        Libro lib= new Libro ( "El arte de la guerra","Sun Tzu", "Grandes de la literatura", 2019, 94);
+        System.out.println(lib);
+        lib.investigar();
+        System.out.println(lib);
+        lib.aprender();
 
+        Balon bal = new Balon ( "Nike",10,  Color.BLACK, 5 );
+        System.out.println(bal);
+        bal.jugar();
+        System.out.println(bal);
+        bal.botar();
+
+        Lampara lam = new Lampara ( "Mariposa", 10);
+        System.out.println(lam);
+        lam.encender();
+        System.out.println(lam);
+        lam.alumbrar();
+
+        Gato cat = new Gato ( "Michi",10, "Blanco");
+        System.out.println(cat);
+        cat.comer();
+        System.out.println(cat);
+        cat.dormir();
 
     }
 }
