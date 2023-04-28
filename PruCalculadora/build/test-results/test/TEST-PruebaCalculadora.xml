@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PruebaCalculadora" tests="20" skipped="0" failures="0" errors="0" timestamp="2023-04-28T20:33:45" hostname="iMac-de-Jesus.local" time="0.046">
+  <properties/>
+  <testcase name="ProbarSumaNegativos()" classname="PruebaCalculadora" time="0.02"/>
+  <testcase name="ProbarDividir2()" classname="PruebaCalculadora" time="0.001"/>
+  <testcase name="ProbarDividir3()" classname="PruebaCalculadora" time="0.001"/>
+  <testcase name="ProbarDividir4()" classname="PruebaCalculadora" time="0.001"/>
+  <testcase name="ProbarDividir5()" classname="PruebaCalculadora" time="0.001"/>
+  <testcase name="ProbarResta2()" classname="PruebaCalculadora" time="0.0"/>
+  <testcase name="ProbarResta3()" classname="PruebaCalculadora" time="0.001"/>
+  <testcase name="ProbarResta4()" classname="PruebaCalculadora" time="0.001"/>
+  <testcase name="ProbarResta5()" classname="PruebaCalculadora" time="0.0"/>
+  <testcase name="ProbarResta()" classname="PruebaCalculadora" time="0.001"/>
+  <testcase name="ProbarSuma3()" classname="PruebaCalculadora" time="0.0"/>
+  <testcase name="ProbarSuma4()" classname="PruebaCalculadora" time="0.0"/>
+  <testcase name="ProbarSuma5()" classname="PruebaCalculadora" time="0.0"/>
+  <testcase name="ProbarDividir()" classname="PruebaCalculadora" time="0.001"/>
+  <testcase name="ProbarSuma()" classname="PruebaCalculadora" time="0.002"/>
+  <testcase name="ProbarMultiplicar()" classname="PruebaCalculadora" time="0.001"/>
+  <testcase name="ProbarMultiplicar2()" classname="PruebaCalculadora" time="0.0"/>
+  <testcase name="ProbarMultiplicar3()" classname="PruebaCalculadora" time="0.001"/>
+  <testcase name="ProbarMultiplicar4()" classname="PruebaCalculadora" time="0.001"/>
+  <testcase name="ProbarMultiplicar5()" classname="PruebaCalculadora" time="0.0"/>
+  <system-out><![CDATA[Pruebas suma
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
